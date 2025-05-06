@@ -1,0 +1,44 @@
+#!/bin/sh
+
+set -e
+
+ORJ_CONFIGURATION_FILE=/etc/orj/orj.conf
+ORJ_GROUP="orj"
+ORJ_DATA_DIR=/var/lib/orj
+ORJ_LOG_DIR=/var/log/orj
+ORJ_USER="orj"
+GSFONTS_DIR=/usr/share/fonts/type1/gsfonts
+
+case "${1}" in
+    configure)
+        if ! getent passwd | grep -q "^orj:"; then
+            adduser --system --home $ORJ_DATA_DIR --quiet --group $ORJ_USER
+            # Data dir
+            chown $ORJ_USER:$ORJ_GROUP $ORJ_DATA_DIR
+        fi
+        # Register "$ORJ_USER" as a postgres user with "Create DB" role attribute
+        su - postgres -c "createuser -d -R -S $ORJ_USER" 2> /dev/null || true
+        # Configuration file
+        chown $ORJ_USER:$ORJ_GROUP $ORJ_CONFIGURATION_FILE
+        chmod 0640 $ORJ_CONFIGURATION_FILE
+        # Log
+        mkdir -p $ORJ_LOG_DIR
+        chown $ORJ_USER:$ORJ_GROUP $ORJ_LOG_DIR
+        chmod 0750 $ORJ_LOG_DIR
+        	# work around https://bugs.debian.org/1059326
+
+        if ! [ -e ${GSFONTS_DIR}/n021003l.pfb ] ; then
+            if ! [ -d ${GSFONTS_DIR} ] ; then
+                mkdir ${GSFONTS_DIR}
+                touch ${GSFONTS_DIR}/.created-by-orj-package
+            fi
+            ln -s /usr/share/fonts/X11/Type1/C059-Roman.pfb ${GSFONTS_DIR}/n021003l.pfb
+        fi
+        ;;
+    *)
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0

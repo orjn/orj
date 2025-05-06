@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/a675d37b-e2c8-459d-a246-d49fbcafe576/orj-icon-512x512.ico?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250501%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250501T181409Z&X-Amz-Expires=86400&X-Amz-Signature=f3cdbe4ec2450d15a0bcb63fdf4ec8a7fa9076c759fd82de2456f97fe7a4a448&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22orj-icon-512x512.ico%22&response-content-type=image%2Fvnd.microsoft.icon&x-id=GetObject

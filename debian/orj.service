@@ -1,0 +1,14 @@
+[Unit]
+Description=Orj Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=orj
+Group=orj
+ExecStart=/usr/bin/orj --config /etc/orj/orj.conf --logfile /var/log/orj/orj-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

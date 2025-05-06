@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orj>
+    <data>
+        <record id="base.user_root" model="res.users">
+            <field name="orjbot_state">disabled</field>
+        </record>
+    </data>
+</orj>

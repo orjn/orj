@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+# Part of Orj. See LICENSE file for full copyright and licensing details.
+
+{
+    'name': 'Greece - Accounting',
+    'icon': '/account/static/description/l10n.png',
+    'countries': ['gr'],
+    'author': 'P. Christeas, Orj S.A.',
+    'category': 'Accounting/Localizations/Account Charts',
+    'description': """
+This is the base module to manage the accounting chart for Greece.
+==================================================================
+
+Greek accounting chart and localization.
+    """,
+    'depends': [
+        'account',
+        'base_iban',
+        'base_vat',
+    ],
+    'auto_install': ['account'],
+    'data': [
+        'data/account_tax_report_data.xml',
+    ],
+    'demo': [
+        'demo/demo_company.xml',
+    ],
+    'license': 'LGPL-3',
+}

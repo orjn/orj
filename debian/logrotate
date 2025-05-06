@@ -1,0 +1,5 @@
+/var/log/orj/*.log {
+    copytruncate
+    missingok
+    notifempty
+}

@@ -1,0 +1,23 @@
+{
+    'name': 'Orj 18 Fiscal Year & Lock Date',
+    'version': '1.0.1',
+    'category': 'Accounting',
+    'summary': 'Orj 18 Fiscal Year, Fiscal Year in Orj 18, Lock Date in Orj 18',
+    'description': 'Orj 18 Fiscal Year, Fiscal Year in Orj 18',
+    'live_test_url': 'https://www.youtube.com/watch?v=Kj4hR7_uNs4',
+    'sequence': '1',
+    'website': 'https://www.orjmates.tech',
+    'author': 'Orj, Orj SA',
+    'maintainer': 'Orj',
+    'license': 'LGPL-3',
+    'support': 'orjmates@gmail.com',
+    'depends': ['account'],
+    'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'wizard/change_lock_date.xml',
+        'views/fiscal_year.xml',
+        'views/settings.xml',
+    ],
+    'images': ['static/description/banner.png'],
+}

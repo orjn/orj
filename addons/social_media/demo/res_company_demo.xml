@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orj>
+    <record id="base.main_company" model="res.company">
+        <field name="social_twitter">https://twitter.com/Orj</field>
+        <field name="social_facebook">https://www.facebook.com/Orj</field>
+        <field name="social_linkedin">https://www.linkedin.com/company/orj</field>
+        <field name="social_youtube">https://www.youtube.com/user/Orjonline</field>
+        <field name="social_github">https://github.com/orj</field>
+        <field name="social_instagram">https://www.instagram.com/explore/tags/orj/</field>
+        <field name="social_tiktok">https://www.tiktok.com/@orj</field>
+    </record>
+</orj>
