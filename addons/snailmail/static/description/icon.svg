@@ -1,1 +1,7 @@
-<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="M0 42V8l25 17L0 42Z" fill="#F9464C"/><path d="M25 25 0 8h50L25 25Z" fill="#FC868B"/><path d="M50 8 0 42h46a4 4 0 0 0 4-4V8Z" fill="#962B48"/></svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <path d="M16 2H8C4 2 2 4 2 8V21C2 21.55 2.45 22 3 22H16C20 22 22 20 22 16V8C22 4 20 2 16 2Z" stroke="#1c64be" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path opacity="0.4" d="M7 9.5H17" stroke="#1c64be" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path opacity="0.4" d="M7 14.5H14" stroke="#1c64be" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </g>
+</svg>

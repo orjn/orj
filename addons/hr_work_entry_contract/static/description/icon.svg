@@ -1,1 +1,7 @@
-<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="M0 12.5h50V38a4 4 0 0 1-4 4H0V12.5Z" fill="#985184"/><path d="M4 20.5a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4h46v8.5a4 4 0 0 1-4 4H4Z" fill="#2EBCFA"/><path d="M0 16h50v4a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-4Z" fill="#144496"/><path d="M25 28a9 9 0 0 0-9 9h10a9 9 0 0 0 9-9H25Z" fill="#fff"/><circle cx="25" cy="19" r="6" fill="#fff"/></svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <circle cx="9" cy="9" r="2" stroke="#1c64be" stroke-width="1.5"/> <path d="M13 15C13 16.1046 13 17 9 17C5 17 5 16.1046 5 15C5 13.8954 6.79086 13 9 13C11.2091 13 13 13.8954 13 15Z" stroke="#1c64be" stroke-width="1.5"/> <path opacity="0.5" d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12C22 15.7712 22 17.6569 20.8284 18.8284C19.6569 20 17.7712 20 14 20H10C6.22876 20 4.34315 20 3.17157 18.8284C2 17.6569 2 15.7712 2 12Z" stroke="#1c64be" stroke-width="1.5"/> <path d="M19 12H15" stroke="#1c64be" stroke-width="1.5" stroke-linecap="round"/> <path d="M19 9H14" stroke="#1c64be" stroke-width="1.5" stroke-linecap="round"/> <path opacity="0.9" d="M19 15H16" stroke="#1c64be" stroke-width="1.5" stroke-linecap="round"/> </g>
+</svg>
