@@ -321,7 +321,7 @@
     <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
         <t t-call="web.brand_promotion_message">
             <t t-set="_message">
-                Create a <a target="_blank" href="http://www.orj.net/app/website?utm_source=db&amp;utm_medium=website">free website</a>
+                Create a <a target="_blank" href="http://www.orj.net/app/website?utm_source=db&amp;utm_medium=website">website</a>
             </t>
             <t t-set="_utm_medium" t-valuef="website"/>
         </t>
